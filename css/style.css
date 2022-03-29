@@ -1,0 +1,56 @@
+body {
+  margin: 0 !important;
+  overflow: hidden !important;
+  background-color: #000 !important;
+}
+.tm {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.webgl-error {
+  font: 15px/30px monospace;
+  text-align: center;
+  color: #fff;
+  margin: 50px;
+}
+.webgl-error a {
+  color: #fff;
+}
+
+.btn_kl {
+  display: inline;
+  color: black;
+  background: white;
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.btn_kl:hover {
+  background: gray;
+  color: #fff;
+}
+
+#loader_a{
+    position: relative;
+    top: 20vh;
+    width: 10rem !important;
+    height: 10rem !important;
+}
+
+#loader_a_div{
+    position: absolute;
+    width: 100%;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    z-index: 100;
+}
+
+.pbar{
+    top: 25vh;
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
